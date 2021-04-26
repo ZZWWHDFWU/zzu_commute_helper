@@ -32,7 +32,7 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: 健康上报 (${{env.REPORT_DATE}})
           body: file://result.html
-          to: madmansoul@icloud.com
+          to: chenkang19970606@163.com
           from: GitHub Actions
           content_type: text/html 
   
