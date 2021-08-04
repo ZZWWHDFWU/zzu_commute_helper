@@ -32,8 +32,9 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: 每日健康上报 (${{env.REPORT_DATE}})
           html_body: file://result.html
-          to: chenkang19970606@163.com
-          from: GitHub Actions
-          content_type: text/html
           convert_markdown: ture
+          to: chenkang19970606@163.com
+          from: 郑州大学数据中台
+          content_type: text/html
+          
   
